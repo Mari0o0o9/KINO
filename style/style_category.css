@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(175,15,140);
+    background: linear-gradient(90deg, rgba(175,15,140,1) 0%, rgba(44,9,121,1) 50%, rgba(0,212,255,1) 100%);
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+main {
+    margin: 1vw;
+    min-width: 85vw;
+    max-width: 90vw;
+}
+header {
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    text-shadow: 4px 6px 6px rgba(59, 253, 220, 1);
+    transition: 0.8s;
+}
+header a:hover {
+    font-size: 30px;
+}
+
+
+main section {
+    display: flex;
+    justify-content: space-around;
+}
+#left {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    max-height: 76vh;
+    overflow: auto;
+}
+#left div {
+    background-color: rgb(233, 233, 200);
+    box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    width: 90%;
+    transition: 0.8s;
+    padding: 3px 5px 10px 10px;
+    margin: 7px;
+}
+.tytul {
+    font-weight: bold;
+    font-size: 25px;
+}
+.opis {
+    font-style: italic;
+    font-size: large;
+}
+.czas {
+    font-weight: bolder;
+}
+.film .przyciskFilm {
+    display: flex;
+    justify-content: right;
+}
+.film .przyciskFilm input {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    background: none;
+    font-size: 90%;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.8s;
+}
+.film .przyciskFilm input:hover {
+    width: 45%;
+    
+}
+
+
+
+
+
+#right {
+    max-height: 76vh;
+    width: 25%;
+    background-color: rgb(233, 233, 200);
+    border-radius: 5px;
+    box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+    overflow: auto;
+}
+#right div {
+    margin: 7px;
+}
+.info p {
+    margin-top: 7px;
+    font-style: italic;
+    font-weight: bold;
+}
+#right ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+    font-style: italic;
+    transition: 0.8s;
+}
+#right ul a:hover {
+    color: rgba(175,15,140,1);
+}
+#right ul a li {
+    height: 30px;
+}
+.bilet {
+    background-color: rgba(59, 253, 220, 1);
+    border-radius: 5px;
+    box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+    width: 70%;
+    padding: 5px;
+    transition: 0.8s;
+}
+.bilet:active {
+    box-shadow: inset 8px 8px 12px 0px rgba(0, 0, 0, 1);
+}
+.bilet:hover {
+    width: 80%;
+}
+.bilet a {
+    text-decoration: none;
+    color: black;
+}
+.data {
+    font-size: 18px;
+    margin: 0;
+    margin-right: 6px;
+}
+

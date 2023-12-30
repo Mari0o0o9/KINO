@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(175,15,140);
+    background: linear-gradient(90deg, rgba(175,15,140,1) 0%, rgba(44,9,121,1) 50%, rgba(0,212,255,1) 100%);
+
+
+    max-width: 60vw;
+    margin: auto;
+}
+header {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    text-shadow: 4px 6px 6px rgba(59, 253, 220, 1);
+    transition: 0.8s;
+}
+header a:hover {
+    font-size: 30px;
+}
+section h1 {
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#kino {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sala {
+    background-color: rgb(233, 233, 200);
+    box-shadow: 8px 8px 12px 0px rgba(0, 0, 0, 1);
+    height: 50vh;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+#ekran {
+    margin-bottom: 4vh;
+    background-color: rgb(158, 131, 152);
+    width: 80%;
+    height: 30px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rozklad {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#siedzenia {
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#siedzenia form {
+    width: 100%;
+    height: 100%;
+}
+.rzad {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.miejsca {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    height: 5vh;
+    background-color: rgba(59, 253, 220, 1);
+    border-radius: 5px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.disabled {
+    background-color: rgb(158, 131, 152)!important;
+    cursor: not-allowed;
+}
+.disabled::before {
+    display: inline-block;
+}
+
+form #dalej {
+    margin: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#dalej input {
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+#dalej input:active {
+    box-shadow: inset 8px 8px 12px 0px rgba(0, 0, 0, 1);
+}
+
+#legenda {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#legenda div {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#legenda div div {
+    margin-left: 10px;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+#zajete {
+    background-color: rgb(158, 131, 152)
+}
+#wolne {
+    background-color: rgba(59, 253, 220, 1)
+}
+#wybrane {
+   background-color: rgba(175,15,140,1);
+}
+
+
+
+
+#wyjscie {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#wyjscie a {
+    width: 70%;
+    height: 7vh;
+    transition: 0.8s;
+}
+#wyjscie a:hover {
+    width: 80%;
+}
+#wyjscie a input {
+    background-color: rgb(233, 233, 200);
+    box-shadow: 8px 8px 12px 0px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 150%;
+}
+#wyjscie a input:active {
+    box-shadow: inset 8px 8px 12px 0px rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+
+
+
